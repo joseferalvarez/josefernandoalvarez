@@ -9,22 +9,20 @@ import {
 
 const AboutMe = ({ social, description }) => {
 
-    console.log(description.text)
-
     return (
         <AboutContainer>
 
             <SocialMedia>
-                {social.map((sn, index) => (
+                {social.map((sn, i) => (
                     <>
                         <a href={sn.link}>
                             <svg width="35" height="35">
-                                {sn.icon.map((path) => (
-                                    <path d={path} fill="white"></path>
+                                {sn.icon.map((path, j) => (
+                                    <path d={path} fill="white" key={j}></path>
                                 ))}
                             </svg>
                         </a>
-                        {index === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
+                        {i === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
                     </>
                 ))}
             </SocialMedia>
@@ -32,8 +30,8 @@ const AboutMe = ({ social, description }) => {
             <Description>
                 <h2>{description.title}</h2>
                 <hr />
-                {description.text.map((p) => (
-                    <p>{p}</p>
+                {description.text.map((p, i) => (
+                    <p key={i}>{p}</p>
                 ))}
             </Description>
         </AboutContainer>

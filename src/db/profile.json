@@ -6,6 +6,7 @@
     },
     "socialmedia": [
         {
+            "id": 1,
             "name": "Linkedin",
             "link": "https://www.linkedin.com/in/jose-fernando-alvarez",
             "icon": [
@@ -13,6 +14,7 @@
             ]
         },
         {
+            "id": 2,
             "name": "Github",
             "link": "https://github.com/JoseFerAlvarez",
             "icon": [
@@ -20,6 +22,7 @@
             ]
         },
         {
+            "id": 3,
             "name": "Instagram",
             "link": "https://www.instagram.com/josefer_alvarez/",
             "icon": [

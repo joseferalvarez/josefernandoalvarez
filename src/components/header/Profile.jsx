@@ -11,8 +11,6 @@ import photo from "../../assets/images/fotoperfil.png";
 
 const Profile = ({ profile }) => {
 
-    console.log(profile);
-
     return (
         <ProfileContainer>
 
