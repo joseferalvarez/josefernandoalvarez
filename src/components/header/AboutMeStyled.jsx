@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
-    padding-top: 50px;
+    padding-top: 80px;
     display: flex;
     margin: 5%;
     gap: 10%;
 
     @media only screen and (min-width: 1000px) {
-        padding-top: 50px;
         margin: 0 27%;
         flex-direction: row;
         justify-content: center;
@@ -32,7 +31,7 @@ const VerticalLine = styled.div`
 const Description = styled.div`
     h2{
         font-family: var(--montserrat);
-        font-size: 30px;
+        font-size: 1.87rem;
         font-weight: 500;
         color: var(--color-white);
         margin: 0;
@@ -45,10 +44,15 @@ const Description = styled.div`
 
     p{
         font-family: var(--roboto);
-        font-size: 20px;
-        font-weight: 400px;
+        font-size: 1.12rem;
+        font-weight: 400;
         color: var(--color-white);
     }
 `;
 
-export { AboutContainer, SocialMedia, VerticalLine, Description };
+export {
+    AboutContainer,
+    SocialMedia,
+    VerticalLine,
+    Description
+};

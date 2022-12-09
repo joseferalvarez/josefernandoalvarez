@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const ButtonStyled = styled.button`
     width: 250px;
-    padding: 30px;
+    padding: 25px;
     font-family: --montserrat;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     border: none;
     border-radius: 8px;

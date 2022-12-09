@@ -6,12 +6,13 @@ const ProfileContainer = styled.div`
     h1{
         color: white;
         font-family: var(--montserrat);
-        font-size: 25px;
+        font-size: 1.56rem;
         text-align: center;
     }
 
     h2{
         color: var(--color-grey);
+        font-size: 1.25rem;
         font-family: var(--roboto);
         font-weight: 400;
     }
@@ -25,15 +26,19 @@ const ProfileContainer = styled.div`
 
 const ProfileImage = styled.div`
     position: relative;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
     margin: auto;
     overflow: hidden;
 
-    img{
-        object-fit: cover;
+    img,
+    div{
         width: 100%;
         height: 100%;
+    }
+
+    img{
+        object-fit: cover;
         scale: 1.3;
     }
 
@@ -41,8 +46,6 @@ const ProfileImage = styled.div`
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
         background: linear-gradient(180deg, rgba(35,35,35,0) 0%, rgba(35,35,35,0.50) 50%, rgba(35,35,35,0.70) 70%, rgba(35,35,35,1) 90%);
     }
 
@@ -57,4 +60,8 @@ const ProfileVocation = styled.div`
     gap: 10px;
 `;
 
-export { ProfileContainer, ProfileImage, ProfileVocation };
+export {
+    ProfileContainer,
+    ProfileImage,
+    ProfileVocation
+};

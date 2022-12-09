@@ -9,12 +9,12 @@ import {
 
 const AboutMe = ({ social, description }) => {
 
+    console.log(description.text)
 
     return (
         <AboutContainer>
 
             <SocialMedia>
-
                 {social.map((sn, index) => (
                     <>
                         <a href={sn.link}>
@@ -27,19 +27,14 @@ const AboutMe = ({ social, description }) => {
                         {index === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
                     </>
                 ))}
-
             </SocialMedia>
+
             <Description>
-                <h2>Sobre mi</h2>
+                <h2>{description.title}</h2>
                 <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-                    Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                    Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                {description.text.map((p) => (
+                    <p>{p}</p>
+                ))}
             </Description>
         </AboutContainer>
     );

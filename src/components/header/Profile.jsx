@@ -1,6 +1,12 @@
 import React from 'react';
-import { ProfileContainer, ProfileImage, ProfileVocation } from './ProfileStyled';
-import IconCode from "../../assets/icons/code.svg";
+
+import {
+    ProfileContainer,
+    ProfileImage,
+    ProfileVocation
+} from './ProfileStyled';
+
+import iconcode from "../../assets/icons/code.svg";
 import photo from "../../assets/images/fotoperfil.png";
 
 const Profile = ({ profile }) => {
@@ -18,7 +24,7 @@ const Profile = ({ profile }) => {
             <div>
                 <h1>{profile.name}</h1>
                 <ProfileVocation>
-                    <img src={IconCode} alt="" />
+                    <img src={iconcode} alt="" />
                     <h2>{profile.vocation}</h2>
                 </ProfileVocation>
             </div>
