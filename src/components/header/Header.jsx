@@ -40,7 +40,7 @@ const Header = () => {
                 <Button text="Contacta conmigo"></Button>
             </ButtonContainer>
 
-            <AboutMe></AboutMe>
+            <AboutMe social={data.socialmedia} description={data.description}></AboutMe>
         </HeaderContainer>
     );
 }

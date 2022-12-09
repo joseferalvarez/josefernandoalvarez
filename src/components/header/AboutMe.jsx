@@ -1,19 +1,33 @@
 import React from 'react';
-import linkedin from "../../assets/icons/linkedin.svg";
-import github from "../../assets/icons/github.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import {
+    AboutContainer,
+    SocialMedia,
+    VerticalLine,
+    Description
+} from './AboutMeStyled';
 
-import { AboutContainer, SocialMedia, VerticalLine, Description } from './AboutMeStyled';
-const AboutMe = () => {
+
+const AboutMe = ({ social, description }) => {
+
+
     return (
         <AboutContainer>
+
             <SocialMedia>
-                <a href="#"><img src={linkedin} alt="" /></a>
-                <VerticalLine />
-                <a href="#"><img src={github} alt="" /></a>
-                <VerticalLine />
-                <a href="#"><img src={instagram} alt="" /></a>
-                <VerticalLine long />
+
+                {social.map((sn, index) => (
+                    <>
+                        <a href={sn.link}>
+                            <svg width="35" height="35">
+                                {sn.icon.map((path) => (
+                                    <path d={path} fill="white"></path>
+                                ))}
+                            </svg>
+                        </a>
+                        {index === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
+                    </>
+                ))}
+
             </SocialMedia>
             <Description>
                 <h2>Sobre mi</h2>
