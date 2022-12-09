@@ -1,5 +1,22 @@
 {
-    "name": "Jose Fernando Álvarez Romero",
-    "vocation": "Full-Stack Developer",
-    "image": "../../assets/images/fotoperfil.png"
+    "profile": {
+        "name": "Jose Fernando Álvarez Romero",
+        "vocation": "Full-Stack Developer",
+        "image": "../../assets/images/fotoperfil.png"
+    },
+    "socialmedia": [
+        {
+            "name": "Linkedin",
+            "link": "www.linkedin.com/in/jose-fernando-alvarez"
+        },
+        {
+            "name": "Github",
+            "link": "https://github.com/JoseFerAlvarez"
+        },
+        {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/josefer_alvarez/"
+        }
+    ],
+    "description": "Mi descripcion"
 }

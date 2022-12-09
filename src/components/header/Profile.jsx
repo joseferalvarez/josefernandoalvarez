@@ -1,11 +1,11 @@
 import React from 'react';
 import { ProfileContainer, ProfileImage, ProfileVocation } from './ProfileStyled';
 import IconCode from "../../assets/icons/code.svg";
-
-import data from "../../db/profile.json"
 import photo from "../../assets/images/fotoperfil.png";
 
-const Profile = () => {
+const Profile = ({ profile }) => {
+
+    console.log(profile);
 
     return (
         <ProfileContainer>
@@ -16,10 +16,10 @@ const Profile = () => {
             </ProfileImage>
 
             <div>
-                <h1>{data.name}</h1>
+                <h1>{profile.name}</h1>
                 <ProfileVocation>
                     <img src={IconCode} alt="" />
-                    <h2>{data.vocation}</h2>
+                    <h2>{profile.vocation}</h2>
                 </ProfileVocation>
             </div>
 

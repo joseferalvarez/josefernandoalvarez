@@ -4,6 +4,9 @@
   --montserrat: "Montserrat", "sans-serif";
   --roboto: "Roboto", "sans-serif";
   --color-grey: #E5E5E5;
+  --color-white: #FFFFFF;
+  --color-orange: #FCA311;
+  --color-dark: #232323;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #232323;
+  background-color: var(--color-dark)
 }
 
 code {

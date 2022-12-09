@@ -7,6 +7,7 @@ const ProfileContainer = styled.div`
         color: white;
         font-family: var(--montserrat);
         font-size: 25px;
+        text-align: center;
     }
 
     h2{
@@ -19,21 +20,21 @@ const ProfileContainer = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 80px;
     }
 `;
 
 const ProfileImage = styled.div`
     position: relative;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     margin: auto;
+    overflow: hidden;
 
     img{
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: grayscale(0.5);
+        scale: 1.3;
     }
 
     div{
@@ -42,7 +43,7 @@ const ProfileImage = styled.div`
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, rgba(35,35,35,0) 0%, rgba(35,35,35,0.50) 60%, rgba(35,35,35,0.70) 80%, rgba(35,35,35,1) 100%);
+        background: linear-gradient(180deg, rgba(35,35,35,0) 0%, rgba(35,35,35,0.50) 50%, rgba(35,35,35,0.70) 70%, rgba(35,35,35,1) 90%);
     }
 
     @media only screen and (min-width: 1000px) {
