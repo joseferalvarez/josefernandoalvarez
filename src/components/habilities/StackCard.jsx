@@ -23,14 +23,15 @@ const Card = styled.div`
     }
 `;
 const List = styled.div`
-    margin: 30px 0;
+    margin: 50px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 
     @media only screen and (min-width: 1000px) {
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
 `;
 
@@ -39,15 +40,19 @@ const Tech = styled.div`
     display: flex;
     align-items: center;
 
+    @media only screen and (min-width: 1000px) {
+        margin: 0 85px 0 50px;
+    }
+
     p{
         color: var(--color-white);
         font-family: var(--roboto);
-        font-size: 1.12rem;
+        font-size: 1rem;
         display: block;
         margin: auto;
 
         @media only screen and (min-width: 1000px) {
-            font-size: 1.87rem;
+            font-size: 1.5rem;
         }
     }
 `;
@@ -61,11 +66,13 @@ const StackCard = () => {
             <List>
                 {data.stack[0].tech.map((tech) => (
                     <Tech>
-                        <svg width="35" height="35">
-                            {tech.icon.map((path, j) => (
-                                <path d={path} fill="white" key={j}></path>
-                            ))}
-                        </svg>
+                        <a href={tech.link} target="_blank" rel='noreferrer'>
+                            <svg width="35" height="35">
+                                {tech.icon.map((path, j) => (
+                                    <path d={path} fill="white" key={j}></path>
+                                ))}
+                            </svg>
+                        </a>
                         <p>{tech.name}</p>
                     </Tech>
                 ))}
