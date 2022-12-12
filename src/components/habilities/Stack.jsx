@@ -1,22 +1,27 @@
 import React from 'react';
 import StackCard from './StackCard';
+import Libraries from './Libraries';
+
+import {
+    StackContainer,
+    CardsContainer
+} from './StackStyled';
 
 import data from "../../db/stack.json";
-import styled from 'styled-components';
-
-
-const StackContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-`;
 
 const Stack = () => {
     return (
         <StackContainer>
-            {data.stack.map((stack) => (
-                <StackCard stack={stack}></StackCard>
-            ))}
+            <hr />
+            <h2>Stack tecnológico</h2>
+            <CardsContainer>
+                {data.stack.map((stack) => (
+                    <StackCard stack={stack}></StackCard>
+                ))}
+            </CardsContainer>
+            <div>
+                <Libraries libraries={data.libraries}></Libraries>
+            </div>
         </StackContainer>
     );
 }

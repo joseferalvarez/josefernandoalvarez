@@ -4,7 +4,7 @@ const Card = styled.div`
     border: 1px solid var(--color-grey);
     margin: 0 5%;
     border-radius: 8px;
-    max-width: 500px;
+    width: 90%;
     transition: all 0.2s;
 
     &:hover,
@@ -40,7 +40,7 @@ const List = styled.div`
     @media only screen and (min-width: 1000px) {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
     }
 `;
 
