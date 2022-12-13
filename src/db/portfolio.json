@@ -27,12 +27,12 @@
         "name": "Kompi",
         "description": "Página de adopción de animales",
         "github": "https://github.com/JoseFerAlvarez/web_kompi",
-        "page": null
+        "page": "https://www.app.adoptaunkompi.com/"
     },
     {
         "name": "Landing Kompi",
         "description": "Landing Page de Kompi",
         "github": "https://github.com/JoseFerAlvarez/landing_kompi",
-        "page": null
+        "page": "https://adoptaunkompi.com/"
     }
 ]
