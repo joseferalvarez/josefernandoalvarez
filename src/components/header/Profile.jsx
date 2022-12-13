@@ -7,15 +7,14 @@ import {
 } from './ProfileStyled';
 
 import iconcode from "../../assets/icons/code.svg";
-import photo from "../../assets/images/fotoperfil.png";
 
-const Profile = ({ profile }) => {
+const Profile = ({ profile, images }) => {
 
     return (
         <ProfileContainer>
 
             <ProfileImage>
-                <img src={photo} alt="" />
+                <img src={images.profile} alt="" />
                 <div></div>
             </ProfileImage>
 

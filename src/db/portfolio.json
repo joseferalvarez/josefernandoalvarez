@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hotel Miranda Dashboard",
+        "description": "Gestor hotelero",
+        "github": "https://github.com/JoseFerAlvarez/hotel-miranda-dashboard",
+        "page": "https://joseferalvarez.github.io/hotel-miranda-dashboard/"
+    },
+    {
+        "name": "Hotel Miranda",
+        "description": "Reserva de habitaciones en hoteles",
+        "github": "https://github.com/JoseFerAlvarez/hotel-miranda-design",
+        "page": "https://joseferalvarez.github.io/hotel-miranda-design/"
+    },
+    {
+        "name": "My Photo Dashboard",
+        "description": "Buscador de imagenes de Unsplash",
+        "github": "https://github.com/JoseFerAlvarez/my-photo-dashboard",
+        "page": "https://joseferalvarez.github.io/my-photo-dashboard/"
+    },
+    {
+        "name": "Oxygen Shop",
+        "description": "Diseño de eCommerce",
+        "github": "https://github.com/JoseFerAlvarez/oxygen-shop",
+        "page": "https://joseferalvarez.github.io/oxygen-shop/"
+    },
+    {
+        "name": "Kompi",
+        "description": "Página de adopción de animales",
+        "github": "https://github.com/JoseFerAlvarez/web_kompi",
+        "page": null
+    },
+    {
+        "name": "Landing Kompi",
+        "description": "Landing Page de Kompi",
+        "github": "https://github.com/JoseFerAlvarez/landing_kompi",
+        "page": null
+    }
+]

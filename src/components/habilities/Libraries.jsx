@@ -3,8 +3,6 @@ import { LibraryContainer } from './LibrariesStyled';
 
 const Libraries = ({ libraries }) => {
 
-    console.log(libraries);
-
     return (
         <LibraryContainer>
             {libraries.map((library) => (

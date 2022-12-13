@@ -10,7 +10,9 @@ import {
 } from './HeaderStyled';
 
 import logo from "../../assets/icons/logolight.svg";
+
 import data from "../../db/profile.json";
+import { profileImages } from '../../db/profile';
 
 
 const Header = () => {
@@ -19,7 +21,7 @@ const Header = () => {
             <Logo>
                 <img src={logo} alt="" />
             </Logo>
-            <Profile profile={data.profile}></Profile>
+            <Profile profile={data.profile} images={profileImages}></Profile>
 
             <ButtonContainer>
                 <Button text="Descarga mi CV" filled></Button>
