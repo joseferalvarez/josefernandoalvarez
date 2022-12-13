@@ -19,7 +19,7 @@ const ProjectContainer = styled.div`
 `;
 
 const DataContainer = styled.div`
-    transition: opacity 200ms;
+    transition: opacity 250ms;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -46,8 +46,8 @@ const Text = styled.div`
     }
 
     p{
-        color: var(--color-grey);
-        font-size: 1.5rem;
+        color: var(--color-silver);
+        font-size: 1.2rem;
         font-family: var(--roboto);
         margin: 0;
     }
