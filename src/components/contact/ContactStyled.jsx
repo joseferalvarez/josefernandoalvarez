@@ -73,7 +73,7 @@ const Email = styled.div`
     }
     div p:last-child{
         font-size: 1rem;
-        font-family: var(--roboto);
+        font-family: var(--montserrat);
     }
 
     @media only screen and (min-width: 1000px) {

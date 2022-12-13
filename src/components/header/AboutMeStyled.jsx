@@ -43,9 +43,7 @@ const Description = styled.div`
     }
 
     p{
-        font-family: var(--roboto);
-        font-size: 1.12rem;
-        font-weight: 400;
+        font-family: var(--montserrat);
         color: var(--color-white);
     }
 `;
