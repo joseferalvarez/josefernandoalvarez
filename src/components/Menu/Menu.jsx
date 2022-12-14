@@ -32,7 +32,7 @@ const Tab = styled.div`
     margin-left: -140px;
 
     hr{
-        width: 70%;
+        width: 30%;
         border-radius: 12px;
         border: 1px solid #23232335;
     }

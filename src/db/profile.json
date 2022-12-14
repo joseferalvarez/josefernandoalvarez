@@ -33,9 +33,10 @@
     "description": {
         "title": "Sobre mi",
         "text": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "¡Hola! Me llamo Jose, soy técnico en Desarrollo de Aplicaciones Multiplataforma y desarrollador web Full-Stack.",
+            "Me considero una persona analítica y organizada, partidario del desarrollo de código bien estructurado y el diseño de interfaces limpias y minimalistas. Me gusta tener en cuenta que todo lo que hago tenga una función y nada sobre.",
+            "También he colaborado en algunos proyectos grupales, donde descubrí que me encanta enseñar, aprender de mis compañeros y trabajar juntos para lograr un objetivo común.",
+            "Aunque no solo me defino por lo que soy, sino también por lo que quiero llegar a ser. Las habilidades se pueden aprender, pero la constancia es lo que me permite seguir formándome y retándome a mi mismo cada día."
         ]
     }
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const AboutContainer = styled.div`
-    padding-top: 80px;
+    padding-top: 30px;
     display: flex;
     margin: 5%;
     gap: 10%;

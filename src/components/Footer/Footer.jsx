@@ -37,7 +37,7 @@ const Footer = () => {
             <p>Contacta conmigo por tus redes sociales</p>
             <SocialMedia>
                 {data.socialmedia.map((sn, i) => (
-                    <a href={sn.link}>
+                    <a href={sn.link} target="_blank" rel='noreferrer'>
                         <svg width="35" height="35">
                             {sn.icon.map((path, j) => (
                                 <path d={path} fill="white" key={j}></path>
