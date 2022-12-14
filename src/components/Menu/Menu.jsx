@@ -31,6 +31,7 @@ const Menu = () => {
     return (
         <MenuContainer>
             <Tab>
+                <a href='#portfolio'>hola</a>
             </Tab>
         </MenuContainer>
     );

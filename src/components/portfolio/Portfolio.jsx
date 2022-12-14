@@ -11,7 +11,7 @@ import { projectImages } from "../../db/portfolio.js";
 
 const Portfolio = () => {
     return (
-        <PortfolioContainer>
+        <PortfolioContainer id='portfolio'>
             <hr />
             <h2>Portfolio</h2>
             <ProjectsList>
