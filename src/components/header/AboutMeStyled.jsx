@@ -45,6 +45,7 @@ const Description = styled.div`
     p{
         font-family: var(--montserrat);
         color: var(--color-white);
+        line-height: 1.6rem;
     }
 `;
 

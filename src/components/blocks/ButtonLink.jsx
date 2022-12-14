@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const LinkStyled = styled.a`
+    cursor: default;
     transition: all 0.25s;
     width: 30%;
     min-width: 180px;

@@ -132,6 +132,7 @@ const Message = styled.textarea`
 `;
 
 const SendButton = styled.input`
+    transition: all 0.25s;
     width: 200px;
     padding: 25px;
     font-family: --montserrat;
@@ -145,6 +146,12 @@ const SendButton = styled.input`
     align-self: flex-start;
     margin-top: 10px;
     margin-left: -7px;
+
+    &:hover{
+        background-color: #333333;
+        border: 1px solid var(--color-grey);
+        color: var(--color-white);
+    }
 `;
 
 export {

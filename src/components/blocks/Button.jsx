@@ -12,7 +12,7 @@ const ButtonStyled = styled.button`
     border-radius: 8px;
     background-color: ${props => props.filled ? "var(--color-orange)" : "var(--color-dark)"};
     color: ${props => props.filled ? "var(--color-white)" : "var(--color-orange)"};
-    border: ${props => props.filled ? "1px solid transparent" : "1px solid var(--color-orange)"};
+    border: ${props => props.filled ? "" : "1px solid var(--color-orange)"};
 
     &:hover{
         background-color: #333333;
