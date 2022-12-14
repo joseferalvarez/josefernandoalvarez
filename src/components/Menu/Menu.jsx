@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import data from "../../db/routes.json";
 
 const MenuContainer = styled.div`
     position: fixed;
@@ -18,20 +19,44 @@ const MenuContainer = styled.div`
 `;
 
 const Tab = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
     transition: margin 0.25s;
     width: 80px;
     height: 70%;
-    background-color: #333333;
+    background-color: var(--color-dark-secondary);
     border-radius: 8px;
     margin-left: -140px;
+
+    hr{
+        width: 70%;
+        border-radius: 12px;
+        border: 1px solid #23232335;
+    }
 `;
 
 const Menu = () => {
 
+    console.log(data.home);
+
     return (
         <MenuContainer>
             <Tab>
-                <a href='#portfolio'>hola</a>
+                {data.home.map((route, index) => (
+                    <>
+                        <a href={route.route} key={index}>
+                            <svg width={route.width} height={route.height}>
+                                {route.icon.map((path, j) => (
+                                    <path d={path} fill="white" key={j}></path>
+                                ))}
+                            </svg>
+                        </a>
+                        {index === data.home.length - 1 ? "" : <hr></hr>}
+                    </>
+                ))}
             </Tab>
         </MenuContainer>
     );

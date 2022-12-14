@@ -12,7 +12,7 @@ import {
 
 const Contact = () => {
     return (
-        <ContactContainer>
+        <ContactContainer id='contact'>
             <hr />
             <h2>Contacta conmigo</h2>
 

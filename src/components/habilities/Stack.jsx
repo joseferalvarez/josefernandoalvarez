@@ -11,7 +11,7 @@ import data from "../../db/stack.json";
 
 const Stack = () => {
     return (
-        <StackContainer>
+        <StackContainer id='stack'>
             <hr />
             <h2>Stack tecnológico</h2>
             <CardsContainer>
