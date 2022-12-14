@@ -4,10 +4,12 @@ import Header from './components/header/Header';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from "./components/contact/Contact";
 import Footer from './components/Footer/Footer';
+import Menu from './components/Menu/Menu';
 
 function App() {
   return (
     <div className="App">
+      <Menu></Menu>
       <Header></Header>
       <Stack></Stack>
       <Portfolio></Portfolio>
