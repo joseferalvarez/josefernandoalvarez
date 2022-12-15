@@ -48,11 +48,12 @@ const ContactData = styled.div`
     }
 `;
 
-const Email = styled.div`
+const Email = styled.a`
     display: flex;
     width: 100%;
     border: 1px solid var(--color-grey);
     border-radius: 8px;
+    text-decoration: none;
 
     &:hover{
         border-color: var(--color-orange);

@@ -17,7 +17,7 @@ const Contact = () => {
             <h2>Contacta conmigo</h2>
 
             <ContactData>
-                <Email>
+                <Email href='mailto:joseferalvarezromero@gmail.com' target='_blank' rel='noreferrer'>
                     <img src={email} alt='' />
                     <div>
                         <p>EMAIL</p>
