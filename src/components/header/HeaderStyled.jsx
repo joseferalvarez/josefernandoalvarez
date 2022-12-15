@@ -13,6 +13,10 @@ const ButtonContainer = styled.div`
     align-items: center;
     margin-top: 30px;
 
+    a{
+        text-decoration: none;
+    }
+
     @media only screen and (min-width: 1000px) {
         flex-direction: row;
         justify-content: center;

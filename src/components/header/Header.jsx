@@ -25,8 +25,8 @@ const Header = () => {
             <Profile profile={data.profile} images={profileImages}></Profile>
 
             <ButtonContainer>
-                <Button text="Descarga mi CV" filled></Button>
-                <Button text="Contacta conmigo"></Button>
+                <a href={data.profile.cv} target="_blank" rel='noreferrer'><Button text="Descarga mi CV" filled></Button></a>
+                <a href="#contact"><Button text="Contacta conmigo"></Button></a>
             </ButtonContainer>
 
             <AboutMe social={data.socialmedia} description={data.description}></AboutMe>

@@ -26,10 +26,10 @@ const LinkStyled = styled.a`
 `;
 
 
-const Button = ({ text, filled, url }) => {
+const ButtonLink = ({ text, filled, url }) => {
     return (
         <LinkStyled href={url} filled={filled} target="_blank" rel='noreferrer'>{text}</LinkStyled>
     );
 }
 
-export default Button;
+export default ButtonLink;
