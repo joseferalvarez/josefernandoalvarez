@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import email from "../../assets/icons/email.svg";
+import emailjs from '@emailjs/browser';
 
 import {
     ContactContainer,
@@ -11,6 +12,17 @@ import {
 } from "./ContactStyled";
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendForm = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm("service_rxv9xos", "template_uckeveo", form.current, "rLb6-2XqMVWz1y-A_");
+
+        e.target.reset();
+    }
+
     return (
         <ContactContainer id='contact'>
             <hr />
@@ -25,10 +37,10 @@ const Contact = () => {
                     </div>
                 </Email>
 
-                <form>
-                    <Input placeholder='Nombre completo'></Input>
-                    <Input placeholder='Email'></Input>
-                    <Message placeholder='Escribe tu mensaje'></Message>
+                <form ref={form} onSubmit={sendForm}>
+                    <Input placeholder='Nombre completo' name='name'></Input>
+                    <Input placeholder='Email' name='email'></Input>
+                    <Message placeholder='Escribe tu mensaje' name='message'></Message>
 
                     <SendButton type="submit" value="Enviar"></SendButton>
                 </form>
