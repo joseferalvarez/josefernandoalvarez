@@ -7,7 +7,7 @@ const AboutContainer = styled.div`
     gap: 10%;
 
     @media only screen and (min-width: 1000px) {
-        margin: 0 27%;
+        margin: 0 25%;
         flex-direction: row;
         justify-content: center;
         gap: 100px;

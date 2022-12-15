@@ -16,6 +16,7 @@ import { profileImages } from '../../db/profile';
 
 
 const Header = () => {
+
     return (
         <HeaderContainer id="home">
             <Logo>
