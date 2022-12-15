@@ -18,7 +18,7 @@ const Contact = () => {
     const sendForm = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm("service_rxv9xos", "template_uckeveo", form.current, "rLb6-2XqMVWz1y-A_");
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY);
 
         e.target.reset();
     }
@@ -29,7 +29,7 @@ const Contact = () => {
             <h2>Contacta conmigo</h2>
 
             <ContactData>
-                <Email href='mailto:joseferalvarezromero@gmail.com' target='_blank' rel='noreferrer'>
+                <Email href={process.env.REACT_APP_EMAIL} target='_blank' rel='noreferrer'>
                     <img src={email} alt='' />
                     <div>
                         <p>EMAIL</p>
