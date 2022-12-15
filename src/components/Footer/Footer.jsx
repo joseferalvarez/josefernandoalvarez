@@ -10,13 +10,17 @@ const FooterContainer = styled.div`
     align-items: center;
     color: var(--color-white);
     width: 100%;
-    height: 150px;
+    height: 250px;
     background-color: var(--color-orange);
     font-family: var(--montserrat);
     font-size: 0.8rem;
 
     p:first-child{
         font-size: 1.2rem;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        height: 150px;
     }
 `;
 
@@ -26,9 +30,14 @@ const SocialMedia = styled.div`
 `;
 
 const Logo = styled.div`
-    position:absolute;
-    bottom: 5px;
-    right: 20px;
+    display: none;
+
+    @media only screen and (min-width: 1000px) {
+        display: inline-block;
+        position:absolute;
+        bottom: 5px;
+        right: 20px;
+    }
 `;
 
 const Footer = () => {
