@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/josefernandoalvarez/static/css/main.e9854375.css",
+    "main.js": "/josefernandoalvarez/static/js/main.74d18211.js",
+    "static/js/787.cf30d4c5.chunk.js": "/josefernandoalvarez/static/js/787.cf30d4c5.chunk.js",
+    "static/media/kompilanding.png": "/josefernandoalvarez/static/media/kompilanding.248e064ce1cdbb1c182e.png",
+    "static/media/kompi.png": "/josefernandoalvarez/static/media/kompi.6603953f6d1ae33a3d6a.png",
+    "static/media/myphotodash.png": "/josefernandoalvarez/static/media/myphotodash.d11565b4b843e1679a61.png",
+    "static/media/fotoperfil.png": "/josefernandoalvarez/static/media/fotoperfil.9add4821fa0ad6c4097f.png",
+    "static/media/oxygenshop.png": "/josefernandoalvarez/static/media/oxygenshop.1f4e653bc0489762b592.png",
+    "static/media/hotelmirandadash.png": "/josefernandoalvarez/static/media/hotelmirandadash.f4a54b9342b5294d5fa0.png",
+    "static/media/hotelmiranda.png": "/josefernandoalvarez/static/media/hotelmiranda.b5354a40af4c7fdbb58e.png",
+    "static/media/email.svg": "/josefernandoalvarez/static/media/email.cb4fc22f9a23366cf913b8a915b2c956.svg",
+    "static/media/logodark.svg": "/josefernandoalvarez/static/media/logodark.0dfc211ced4cc404f776b315d758355d.svg",
+    "static/media/logolight.svg": "/josefernandoalvarez/static/media/logolight.86379b41983557f85f908af9d3c0de61.svg",
+    "index.html": "/josefernandoalvarez/index.html",
+    "static/media/code.svg": "/josefernandoalvarez/static/media/code.af8bf825f6202d891f235e5f1dc63a4b.svg",
+    "main.e9854375.css.map": "/josefernandoalvarez/static/css/main.e9854375.css.map",
+    "main.74d18211.js.map": "/josefernandoalvarez/static/js/main.74d18211.js.map",
+    "787.cf30d4c5.chunk.js.map": "/josefernandoalvarez/static/js/787.cf30d4c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9854375.css",
+    "static/js/main.74d18211.js"
+  ]
+}
