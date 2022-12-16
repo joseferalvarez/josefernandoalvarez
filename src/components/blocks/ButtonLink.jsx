@@ -1,34 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const LinkStyled = styled.a`
-    cursor: default;
-    transition: all 0.25s;
     width: 30%;
+    max-width: 250px;
     min-width: 180px;
-    text-align: center;
     padding: 25px;
-    font-family: --montserrat;
+    text-align: center;
+    font-family: var(--montserrat);
     font-size: 1.25rem;
     font-weight: 500;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
+    border: ${props => props.filled ? "1px solid transparent" : "1px solid var(--color-orange)"};
     background-color: ${props => props.filled ? "var(--color-orange)" : "var(--color-dark)"};
     color: ${props => props.filled ? "var(--color-white)" : "var(--color-orange)"};
-    border: ${props => props.filled ? "1px solid transparent" : "1px solid var(--color-orange)"};
-    text-decoration: none;
+    cursor: default;
+    transition: all 0.25s;
 
     &:hover{
-        background-color: #333333;
         border: ${props => props.filled ? "1px solid var(--color-grey)" : "1px solid transparent"};
+        background-color: #333333;
         color: var(--color-white);
     }
 `;
 
 
-const ButtonLink = ({ text, filled, url }) => {
+const ButtonLink = ({ text, filled, url, noref }) => {
+
+    const [refer,] = useState(!noref ? {
+        target: "_black",
+        rel: "noreferrer"
+    } : "");
+
     return (
-        <LinkStyled href={url} filled={filled} target="_blank" rel='noreferrer'>{text}</LinkStyled>
+        <LinkStyled href={url} filled={filled} target={refer.target} rel={refer.rel}>{text}</LinkStyled>
     );
 }
 

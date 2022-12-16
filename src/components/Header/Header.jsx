@@ -1,7 +1,6 @@
 import React from 'react';
 import Profile from './Profile';
 import AboutMe from './AboutMe';
-import Button from '../blocks/Button';
 
 import {
     HeaderContainer,
@@ -13,6 +12,7 @@ import logo from "../../assets/icons/logolight.svg";
 
 import data from "../../db/profile.json";
 import { profileImages } from '../../db/profile';
+import ButtonLink from '../blocks/ButtonLink';
 
 
 const Header = () => {
@@ -25,8 +25,8 @@ const Header = () => {
             <Profile profile={data.profile} images={profileImages}></Profile>
 
             <ButtonContainer>
-                <a href={data.profile.cv} target="_blank" rel='noreferrer'><Button text="Descarga mi CV" filled></Button></a>
-                <a href="#contact"><Button text="Contacta conmigo"></Button></a>
+                <ButtonLink url={data.profile.cv} text="Descarga mi CV" filled></ButtonLink>
+                <ButtonLink url="#contact" text="Contacta conmigo" noref></ButtonLink>
             </ButtonContainer>
 
             <AboutMe social={data.socialmedia} description={data.description}></AboutMe>
