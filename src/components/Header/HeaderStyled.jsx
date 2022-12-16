@@ -9,9 +9,9 @@ const Logo = styled.div`
 const ButtonContainer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
-    margin-top: 30px;
+    margin: 50px 0;
 
     a{
         text-decoration: none;
@@ -20,7 +20,7 @@ const ButtonContainer = styled.div`
     @media only screen and (min-width: 1000px) {
         flex-direction: row;
         justify-content: center;
-        gap: 100px;
+        gap: 50px;
     }
 `;
 

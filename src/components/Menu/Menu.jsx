@@ -26,8 +26,8 @@ const Tab = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
+    justify-content: space-around;
+    width: 70%;
     height: 80px;
     background-color: var(--color-dark-secondary);
     border-radius: 8px;
@@ -41,7 +41,7 @@ const Tab = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 15px;
         width: 80px;
         height: 70%;
         transition: margin 0.25s;

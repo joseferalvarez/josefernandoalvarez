@@ -41,13 +41,13 @@ const Text = styled.div`
     h3{
         font-family: var(--montserrat);
         color: var(--color-white);
-        font-size: 1.87rem;
+        font-size: 1.5rem;
         margin: 5% 0 3% 0;;
     }
 
     p{
         color: var(--color-silver);
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: var(--roboto);
         margin: 0;
     }

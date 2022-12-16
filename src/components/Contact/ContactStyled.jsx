@@ -35,7 +35,7 @@ const ContactData = styled.div`
 
 const Email = styled.a`
     display: flex;
-    width: 60%;
+    width: 100%;
     align-self: flex-start;
     border: 1px solid var(--color-grey);
     border-radius: 8px;
@@ -55,7 +55,7 @@ const Email = styled.a`
     }
 
     div p:first-child{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: var(--montserrat);
     }
     div p:last-child{
@@ -81,7 +81,7 @@ const Email = styled.a`
 
 const Input = styled.input`
     font-family: var(--montserrat);
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--color-white);
     border: none;
     background-color: transparent;
@@ -102,7 +102,7 @@ const Input = styled.input`
 
 const Message = styled.textarea`
     font-family: var(--montserrat);
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--color-white);
     border: none;
     background-color: transparent;
@@ -127,7 +127,7 @@ const SendButton = styled.input`
     width: 200px;
     padding: 25px;
     font-family: --montserrat;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 500;
     border: none;
     border-radius: 8px;
