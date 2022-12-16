@@ -1,8 +1,24 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Title = styled.h2`
-    font-size: 1.87rem;
-    font-weight: 500;
-    color: var(--color-white);
-    font-family: var(--montserrat);
+    ${(props) => {
+        if (props.center) {
+            return css`
+                font-size: 1.87rem;
+                font-weight: 500;
+                color: var(--color-white);
+                font-family: var(--montserrat);
+                text-align: center;
+                margin: 50px;
+            `;
+        } else {
+            return css`
+                font-size: 1.87rem;
+                font-weight: 500;
+                color: var(--color-white);
+                font-family: var(--montserrat);
+                margin: 0;
+            `;
+        }
+    }}
 `;

@@ -29,15 +29,6 @@ const VerticalLine = styled.div`
 `;
 
 const Description = styled.div`
-    h2{
-        margin: 0;
-    }
-
-    hr{
-        border-radius: 8px;
-        color: var(--color-grey);
-    }
-
     p{
         font-family: var(--montserrat);
         color: var(--color-white);

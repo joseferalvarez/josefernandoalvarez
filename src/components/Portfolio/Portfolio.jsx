@@ -8,13 +8,14 @@ import {
 import data from "../../db/portfolio.json";
 import { projectImages } from "../../db/portfolio.js";
 import { Title } from '../Blocks/Title';
+import { Line } from '../Blocks/Line';
 
 
 const Portfolio = () => {
     return (
         <PortfolioContainer id='portfolio'>
-            <hr />
-            <Title>Portfolio</Title>
+            <Line center />
+            <Title center>Portfolio</Title>
             <ProjectsList>
                 {data.map((project, index) => (
                     <Project project={project} image={projectImages.images[index]}></Project>

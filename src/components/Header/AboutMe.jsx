@@ -6,6 +6,7 @@ import {
     Description
 } from './AboutMeStyled';
 import { Title } from '../Blocks/Title';
+import { Line } from '../Blocks/Line';
 
 
 const AboutMe = ({ social, description }) => {
@@ -30,7 +31,7 @@ const AboutMe = ({ social, description }) => {
 
             <Description>
                 <Title>{description.title}</Title>
-                <hr />
+                <Line />
                 {description.text.map((p, i) => (
                     <p key={i}>{p}</p>
                 ))}

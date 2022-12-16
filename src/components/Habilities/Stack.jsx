@@ -9,12 +9,13 @@ import {
 
 import data from "../../db/stack.json";
 import { Title } from '../Blocks/Title';
+import { Line } from '../Blocks/Line';
 
 const Stack = () => {
     return (
         <StackContainer id='stack'>
-            <hr />
-            <Title>Stack tecnológico</Title>
+            <Line center />
+            <Title center>Stack tecnológico</Title>
             <CardsContainer>
                 {data.stack.map((stack) => (
                     <StackCard stack={stack}></StackCard>

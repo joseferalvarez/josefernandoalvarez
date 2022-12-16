@@ -1,8 +1,8 @@
 import './App.css';
 import Stack from './components/Habilities/Stack';
 import Header from './components/Header/Header';
-import Portfolio from './components/portfolio/Portfolio';
-import Contact from "./components/contact/Contact";
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from "./components/Contact/Contact";
 import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
 

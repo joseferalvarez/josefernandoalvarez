@@ -10,6 +10,7 @@ import {
     SendButton
 } from "./ContactStyled";
 import { Title } from '../Blocks/Title';
+import { Line } from '../Blocks/Line';
 
 const Contact = () => {
 
@@ -23,7 +24,7 @@ const Contact = () => {
 
     return (
         <ContactContainer id='contact'>
-            <hr />
+            <Line center />
             <Title>Contacta conmigo</Title>
             <ContactData>
                 <Email href={process.env.REACT_APP_EMAIL} target='_blank' rel='noreferrer'>
