@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const LinkStyled = styled.a`
-    width: 150px;
+    width: 170px;
     padding: 20px;
     text-align: center;
     font-family: var(--montserrat);
-    font-size: 0.9rem;
+    font-size: var(--button-size);
     font-weight: 500;
     text-decoration: none;
     border: none;

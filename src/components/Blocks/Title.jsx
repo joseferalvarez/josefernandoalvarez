@@ -4,7 +4,7 @@ export const Title = styled.h2`
     ${(props) => {
         if (props.center) {
             return css`
-                font-size: 1.4rem;
+                font-size: var(--title-size);
                 font-weight: 500;
                 color: var(--color-white);
                 font-family: var(--montserrat);
@@ -13,7 +13,7 @@ export const Title = styled.h2`
             `;
         } else {
             return css`
-                font-size: 1.4rem;
+                font-size: var(--title-size);
                 font-weight: 500;
                 color: var(--color-white);
                 font-family: var(--montserrat);

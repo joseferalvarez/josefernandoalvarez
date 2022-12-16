@@ -6,17 +6,13 @@ const ProfileContainer = styled.div`
     h1{
         color: white;
         font-family: var(--montserrat);
-        font-size: 1.3rem;
+        font-size: var(--title-size);
         text-align: center;
     }
 
     h2{
         color: var(--color-grey);
-<<<<<<< HEAD
-        font-size: 1.25rem;
-=======
-        font-size: 1rem;
->>>>>>> develop
+        font-size: var(--text-size);
         font-family: var(--montserrat);
         font-weight: 400;
     }

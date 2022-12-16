@@ -15,7 +15,7 @@ const Card = styled.div`
         font-family: var(--montserrat);
         color: var(--color-white);
         font-weight: 500;
-        font-size: 1.2rem;
+        font-size: var(--button-size);
         text-align: center;
     }
 
@@ -27,13 +27,9 @@ const Card = styled.div`
 
     @media only screen and (min-width: 1000px) {
         width: 25%;
-<<<<<<< HEAD
-        min-width: 350px;
-=======
->>>>>>> develop
-        margin: 0;
     }
 `;
+
 const List = styled.div`
     margin: 50px 0;
     display: grid;
@@ -59,7 +55,7 @@ const Tech = styled.div`
     p{
         color: var(--color-white);
         font-family: var(--roboto);
-        font-size: 0.9rem;
+        font-size: var(--text-size);
         display: block;
         margin: auto;
     }

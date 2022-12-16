@@ -126,8 +126,8 @@ const SendButton = styled.input`
     transition: all 0.25s;
     width: 200px;
     padding: 25px;
-    font-family: --montserrat;
-    font-size: 1rem;
+    font-family: var(--montserrat);
+    font-size: var(--button-size);
     font-weight: 500;
     border: none;
     border-radius: 8px;
