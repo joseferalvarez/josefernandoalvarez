@@ -6,14 +6,14 @@ const ProfileContainer = styled.div`
     h1{
         color: white;
         font-family: var(--montserrat);
-        font-size: 1.56rem;
+        font-size: 1.3rem;
         text-align: center;
     }
 
     h2{
         color: var(--color-grey);
-        font-size: 1.25rem;
-        font-family: var(--roboto);
+        font-size: 1rem;
+        font-family: var(--montserrat);
         font-weight: 400;
     }
 
@@ -26,8 +26,8 @@ const ProfileContainer = styled.div`
 
 const ProfileImage = styled.div`
     position: relative;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 250px;
+    max-height: 250px;
     margin: auto;
     overflow: hidden;
 

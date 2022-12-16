@@ -18,7 +18,7 @@ const AboutMe = ({ social, description }) => {
                 {social.map((sn, i) => (
                     <>
                         <a href={sn.link} target="_blank" rel='noreferrer'>
-                            <svg width="35" height="35">
+                            <svg width={sn.width} height={sn.height}>
                                 {sn.icon.map((path, j) => (
                                     <path d={path} fill="white" key={j}></path>
                                 ))}
