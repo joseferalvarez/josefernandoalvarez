@@ -30,8 +30,8 @@ const ProfileContainer = styled.div`
 
 const ProfileImage = styled.div`
     position: relative;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     margin: auto;
     overflow: hidden;
 

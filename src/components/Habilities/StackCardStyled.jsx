@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Card = styled.div`
     border: 1px solid var(--color-grey);
-    margin: 0 5%;
     border-radius: 8px;
     width: 90%;
     transition: all 0.2s;
@@ -60,7 +59,7 @@ const Tech = styled.div`
     p{
         color: var(--color-white);
         font-family: var(--roboto);
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         display: block;
         margin: auto;
     }

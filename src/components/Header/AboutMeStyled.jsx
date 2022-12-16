@@ -29,7 +29,7 @@ const VerticalLine = styled.div`
 
 const Description = styled.div`
     p{
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         font-family: var(--montserrat);
         color: var(--color-white);
         line-height: 1.2rem;

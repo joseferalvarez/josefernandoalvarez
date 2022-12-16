@@ -41,7 +41,7 @@ const Tab = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 25px;
         width: 80px;
         height: 70%;
         transition: margin 0.25s;
