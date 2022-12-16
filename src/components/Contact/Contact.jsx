@@ -25,7 +25,7 @@ const Contact = () => {
     return (
         <ContactContainer id='contact'>
             <Line center />
-            <Title>Contacta conmigo</Title>
+            <Title center>Contacta conmigo</Title>
             <ContactData>
                 <Email href={process.env.REACT_APP_EMAIL} target='_blank' rel='noreferrer'>
                     <img src={email} alt='' />

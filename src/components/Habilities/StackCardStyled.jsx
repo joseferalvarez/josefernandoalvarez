@@ -27,7 +27,8 @@ const Card = styled.div`
     }
 
     @media only screen and (min-width: 1000px) {
-        width: 500px;
+        width: 25%;
+        min-width: 350px;
         margin: 0;
     }
 `;

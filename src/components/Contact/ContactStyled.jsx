@@ -2,17 +2,6 @@ import styled from 'styled-components';
 
 const ContactContainer = styled.div`
     margin: 100px auto;
-
-    hr{
-        border-radius: 8px;
-        color: var(--color-grey);
-        margin: 0 25%;
-    }
-
-    h2{
-        text-align: center;
-        margin: 50px;
-    }
 `;
 
 const ContactData = styled.div`

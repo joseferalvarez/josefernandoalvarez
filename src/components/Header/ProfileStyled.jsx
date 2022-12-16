@@ -13,7 +13,7 @@ const ProfileContainer = styled.div`
     h2{
         color: var(--color-grey);
         font-size: 1.25rem;
-        font-family: var(--roboto);
+        font-family: var(--montserrat);
         font-weight: 400;
     }
 

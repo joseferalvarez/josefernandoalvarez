@@ -2,11 +2,6 @@ import styled from 'styled-components';
 
 const PortfolioContainer = styled.div`
     margin: 100px auto;
-
-    h2{
-        text-align: center;
-        margin: 50px;
-    }
 `;
 const ProjectsList = styled.div`
     display:flex;
