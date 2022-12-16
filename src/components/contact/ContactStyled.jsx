@@ -3,19 +3,15 @@ import styled from 'styled-components';
 const ContactContainer = styled.div`
     margin: 100px auto;
 
-    h2{
-        text-align: center;
-        font-size: 1.87rem;
-        font-weight: 500;
-        color: var(--color-white);
-        margin: 50px;
-        font-family: var(--montserrat);
-    }
-
     hr{
         border-radius: 8px;
         color: var(--color-grey);
         margin: 0 25%;
+    }
+
+    h2{
+        text-align: center;
+        margin: 50px;
     }
 `;
 
@@ -50,7 +46,8 @@ const ContactData = styled.div`
 
 const Email = styled.a`
     display: flex;
-    width: 100%;
+    width: 60%;
+    align-self: flex-start;
     border: 1px solid var(--color-grey);
     border-radius: 8px;
     text-decoration: none;
@@ -84,11 +81,9 @@ const Email = styled.a`
         justify-content: center;
         width: 30%;
         text-align: center;
-
         img{
             width: 20%;
         }
-
         div p:first-child{
             margin-top: 5px;
         }
@@ -103,13 +98,16 @@ const Input = styled.input`
     background-color: transparent;
     border: 1px solid var(--color-grey);
     border-radius: 8px;
-    padding: 15px;
-    margin-left: 15px;
+    padding: 15px 0;
     width: 100%;
 
     &:focus{
         border: 1px solid var(--color-orange);
         outline: none;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        padding: 15px;
     }
 `;
 
@@ -121,14 +119,17 @@ const Message = styled.textarea`
     background-color: transparent;
     border: 1px solid #E5E5E5;
     border-radius: 8px;
+    padding: 15px 0;
     width: 100%;
-    padding: 15px;
-    margin-left: 15px;
     height: 200px;
 
     &:focus{
         border: 1px solid var(--color-orange);
         outline: none;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        padding: 15px;
     }
 `;
 
@@ -146,12 +147,15 @@ const SendButton = styled.input`
     border: 1px solid var(--color-orange);
     align-self: flex-start;
     margin-top: 10px;
-    margin-left: -7px;
 
     &:hover{
         background-color: #333333;
         border: 1px solid var(--color-grey);
         color: var(--color-white);
+    }
+
+    @media only screen and (min-width: 1000px) {
+        margin-left: -15px;
     }
 `;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonLink from "../blocks/ButtonLink";
+import ButtonLink from "../Blocks/ButtonLink";
 
 import {
     ProjectContainer,

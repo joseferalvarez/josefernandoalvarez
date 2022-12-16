@@ -7,13 +7,14 @@ import {
 
 import data from "../../db/portfolio.json";
 import { projectImages } from "../../db/portfolio.js";
+import { Title } from '../Blocks/Title';
 
 
 const Portfolio = () => {
     return (
         <PortfolioContainer id='portfolio'>
             <hr />
-            <h2>Portfolio</h2>
+            <Title>Portfolio</Title>
             <ProjectsList>
                 {data.map((project, index) => (
                     <Project project={project} image={projectImages.images[index]}></Project>

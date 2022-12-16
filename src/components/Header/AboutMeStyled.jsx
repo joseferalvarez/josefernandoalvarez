@@ -30,10 +30,6 @@ const VerticalLine = styled.div`
 
 const Description = styled.div`
     h2{
-        font-family: var(--montserrat);
-        font-size: 1.87rem;
-        font-weight: 500;
-        color: var(--color-white);
         margin: 0;
     }
 

@@ -12,7 +12,7 @@ import logo from "../../assets/icons/logolight.svg";
 
 import data from "../../db/profile.json";
 import { profileImages } from '../../db/profile';
-import ButtonLink from '../blocks/ButtonLink';
+import ButtonLink from '../Blocks/ButtonLink';
 
 
 const Header = () => {

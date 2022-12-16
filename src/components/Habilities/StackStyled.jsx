@@ -7,9 +7,6 @@ const StackContainer = styled.div`
 
     h2{
         text-align: center;
-        font-size: 1.87rem;
-        font-weight: 500;
-        color: var(--color-white);
         margin: 50px;
     }
 

@@ -8,12 +8,13 @@ import {
 } from './StackStyled';
 
 import data from "../../db/stack.json";
+import { Title } from '../Blocks/Title';
 
 const Stack = () => {
     return (
         <StackContainer id='stack'>
             <hr />
-            <h2>Stack tecnológico</h2>
+            <Title>Stack tecnológico</Title>
             <CardsContainer>
                 {data.stack.map((stack) => (
                     <StackCard stack={stack}></StackCard>

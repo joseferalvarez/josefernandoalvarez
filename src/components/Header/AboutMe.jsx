@@ -5,6 +5,7 @@ import {
     VerticalLine,
     Description
 } from './AboutMeStyled';
+import { Title } from '../Blocks/Title';
 
 
 const AboutMe = ({ social, description }) => {
@@ -28,7 +29,7 @@ const AboutMe = ({ social, description }) => {
             </SocialMedia>
 
             <Description>
-                <h2>{description.title}</h2>
+                <Title>{description.title}</Title>
                 <hr />
                 {description.text.map((p, i) => (
                     <p key={i}>{p}</p>
