@@ -11,7 +11,7 @@ const ButtonContainer = styled.div`
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin: 60px 0;
+    margin: 50px 0;
 
     a{
         text-decoration: none;

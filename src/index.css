@@ -9,9 +9,9 @@
   --color-dark: #232323;
   --color-dark-secondary: #333333;
 
-  --text-size: 1rem;
-  --title-size: 1.4rem;
-  --button-size: 1.1rem;
+  --text-size: 0.9rem;
+  --title-size: 1.3rem;
+  --button-size: 1rem;
 }
 
 html{
