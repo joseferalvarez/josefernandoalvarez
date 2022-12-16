@@ -23,6 +23,7 @@ const Card = styled.div`
         border: 1px solid var(--color-grey);
         margin: 0 25%;
         border-radius: 8px;
+        background-color: var(--color-grey);
     }
 
     @media only screen and (min-width: 1000px) {
