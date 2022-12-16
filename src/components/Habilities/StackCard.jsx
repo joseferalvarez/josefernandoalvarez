@@ -15,7 +15,7 @@ const StackCard = ({ stack }) => {
                 {stack.tech.map((tech) => (
                     <Tech>
                         <a href={tech.link} target="_blank" rel='noreferrer'>
-                            <svg width="35" height="35">
+                            <svg width={tech.width} height={tech.height}>
                                 {tech.icon.map((path, j) => (
                                     <path d={path} fill="white" key={j}></path>
                                 ))}
