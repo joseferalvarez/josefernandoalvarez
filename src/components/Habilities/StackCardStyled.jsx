@@ -55,7 +55,7 @@ const Tech = styled.div`
     align-items: center;
 
     @media only screen and (min-width: 1000px) {
-        margin: 0 85px 0 50px;
+        margin: 0 75px 0 50px;
     }
 
     p{
