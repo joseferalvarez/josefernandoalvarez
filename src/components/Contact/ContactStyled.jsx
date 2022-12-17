@@ -27,7 +27,7 @@ const ContactData = styled.div`
         gap: 5%;
 
         form{
-            width: 60%;
+            width: 55%;
             margin: 0;
         }
     }
@@ -35,8 +35,11 @@ const ContactData = styled.div`
 
 const Email = styled.a`
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    align-self: flex-start;
+    text-align: center;
     border: 1px solid var(--color-grey);
     border-radius: 8px;
     text-decoration: none;
@@ -45,35 +48,25 @@ const Email = styled.a`
         border-color: var(--color-orange);
     }
 
-    img{
-        margin: 0 5%;
-    }
-
     div p{
         color: var(--color-white);
         margin: 15px 0;
-    }
+        font-size: 0.9rem;
+        font-family: var(--montserrat);
+        line-height: 1.5rem;
 
-    div p:first-child{
-        font-size: 1.2rem;
-        font-family: var(--montserrat);
-    }
-    div p:last-child{
-        font-size: 1rem;
-        font-family: var(--montserrat);
+        span{
+            text-decoration: underline;
+        }
     }
 
     @media only screen and (min-width: 1000px) {
-        height: 200px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 30%;
-        text-align: center;
+        width: 35%;
+
         img{
             width: 20%;
         }
-        div p:first-child{
+        div p{
             margin-top: 5px;
         }
     }

@@ -30,8 +30,7 @@ const Contact = () => {
                 <Email href={process.env.REACT_APP_EMAIL} target='_blank' rel='noreferrer'>
                     <img src={email} alt='' />
                     <div>
-                        <p>EMAIL</p>
-                        <p>Envíame un correo electrónico</p>
+                        <p>Envíame un correo electrónico a <span>joseferalvarezromero@gmail.com</span></p>
                     </div>
                 </Email>
                 <form ref={form} onSubmit={sendForm}>
