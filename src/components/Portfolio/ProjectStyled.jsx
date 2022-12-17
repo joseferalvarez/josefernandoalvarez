@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const ProjectContainer = styled.div`
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 250px;
     border-radius: 8px;
 
     &:hover div{
@@ -25,10 +25,10 @@ const DataContainer = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 300px;
+    height: 250px;
     border-radius: 8px;
     border: 1px solid var(--color-orange);
-    background: linear-gradient(0deg, rgba(35,35,35,0.80) 0%, rgba(35,35,35,0.85) 20%, rgba(35,35,35,0.90) 50%, rgba(35,35,35,1) 80%);
+    background: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(51,51,51,0.95) 50%, rgba(51,51,51,0.9) 100%);
 `;
 
 const Text = styled.div`

@@ -11,15 +11,20 @@ const Card = styled.div`
         border: 1px solid var(--color-orange);
     }
 
+    &:hover hr{
+        background-color: var(--color-orange);
+    }
+
     h3{
         font-family: var(--montserrat);
         color: var(--color-white);
         font-weight: 500;
-        font-size: var(--button-size);
+        font-size: 1.1rem;
         text-align: center;
     }
 
     hr{
+        transition: all 0.2s;
         border: 1px solid var(--color-grey);
         margin: 0 25%;
         border-radius: 8px;
@@ -32,7 +37,7 @@ const Card = styled.div`
 `;
 
 const List = styled.div`
-    margin: 50px 0;
+    margin: 30px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -40,7 +45,7 @@ const List = styled.div`
     @media only screen and (min-width: 1000px) {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
     }
 `;
 

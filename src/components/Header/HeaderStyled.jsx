@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const HeaderContainer = styled.div``;
 const Logo = styled.div`
     display: block;
-    margin: 10px 0 0 20px;
+    margin: 15px 0 0 15px;
 `;
 
 const ButtonContainer = styled.div`

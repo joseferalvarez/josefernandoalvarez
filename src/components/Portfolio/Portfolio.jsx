@@ -18,7 +18,7 @@ const Portfolio = () => {
             <Title center>Portfolio</Title>
             <ProjectsList>
                 {data.map((project, index) => (
-                    <Project project={project} image={projectImages.images[index]}></Project>
+                    <Project project={project} key={index} image={projectImages.images[index]}></Project>
                 ))}
             </ProjectsList>
         </PortfolioContainer>

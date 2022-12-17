@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 const PortfolioContainer = styled.div`
-    margin: 100px auto;
+    margin: 50px auto 90px auto;
 `;
 const ProjectsList = styled.div`
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
     margin: 0 5%;
 
     @media only screen and (min-width: 1000px) {

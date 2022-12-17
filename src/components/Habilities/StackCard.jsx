@@ -12,8 +12,8 @@ const StackCard = ({ stack }) => {
             <h3>{stack.name}</h3>
             <hr />
             <List>
-                {stack.tech.map((tech) => (
-                    <Tech>
+                {stack.tech.map((tech, index) => (
+                    <Tech key={index}>
                         <a href={tech.link} target="_blank" rel='noreferrer'>
                             <svg width={tech.width} height={tech.height}>
                                 {tech.icon.map((path, j) => (

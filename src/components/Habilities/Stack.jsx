@@ -17,8 +17,8 @@ const Stack = () => {
             <Line center />
             <Title center>Stack tecnológico</Title>
             <CardsContainer>
-                {data.stack.map((stack) => (
-                    <StackCard stack={stack}></StackCard>
+                {data.stack.map((stack, index) => (
+                    <StackCard stack={stack} key={index}></StackCard>
                 ))}
             </CardsContainer>
             <div>

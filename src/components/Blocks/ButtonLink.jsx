@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 
 const LinkStyled = styled.a`
-    width: 170px;
+    max-width: 170px;
+    width: 30%;
     padding: 20px;
     text-align: center;
     font-family: var(--montserrat);

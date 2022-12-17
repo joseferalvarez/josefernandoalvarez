@@ -1,4 +1,3 @@
-import './App.css';
 import Stack from './components/Habilities/Stack';
 import Header from './components/Header/Header';
 import Portfolio from './components/Portfolio/Portfolio';

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ContactContainer = styled.div`
-    margin: 100px auto;
+    margin: 50px auto;
 `;
 
 const ContactData = styled.div`

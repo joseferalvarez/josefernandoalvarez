@@ -6,7 +6,7 @@ const ProfileContainer = styled.div`
     h1{
         color: white;
         font-family: var(--montserrat);
-        font-size: var(--title-size);
+        font-size: var(--h1-size);
         text-align: center;
     }
 

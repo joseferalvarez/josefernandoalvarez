@@ -15,8 +15,8 @@ const AboutMe = ({ social, description }) => {
         <AboutContainer>
 
             <SocialMedia>
-                {social.map((sn, i) => (
-                    <>
+                {social.map((sn, index) => (
+                    <React.Fragment key={index}>
                         <a href={sn.link} target="_blank" rel='noreferrer'>
                             <svg width={sn.width} height={sn.height}>
                                 {sn.icon.map((path, j) => (
@@ -24,8 +24,8 @@ const AboutMe = ({ social, description }) => {
                                 ))}
                             </svg>
                         </a>
-                        {i === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
-                    </>
+                        {index === (social.length - 1) ? <VerticalLine long /> : <VerticalLine />}
+                    </React.Fragment>
                 ))}
             </SocialMedia>
 

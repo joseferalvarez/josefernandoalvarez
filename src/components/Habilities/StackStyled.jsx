@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StackContainer = styled.div`
     display: block;
-    margin: 100px auto;
+    margin: 50px auto;
     font-family: var(--montserrat);
 `;
 
