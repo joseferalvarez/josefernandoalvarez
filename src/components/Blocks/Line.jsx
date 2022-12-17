@@ -12,7 +12,6 @@ export const Line = styled.hr`
             return css`
                 border: 1px solid var(--color-grey);
                 border-radius: 8px;
-                color: var(--color-grey);
                 background-color: var(--color-grey);
             `;
         }
