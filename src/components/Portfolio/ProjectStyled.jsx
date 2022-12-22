@@ -51,6 +51,17 @@ const Text = styled.div`
         font-family: var(--roboto);
         margin: 0;
     }
+
+    div{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        gap: 7px;
+
+        p{
+            font-size: 1.1rem;
+        }
+    }
 `;
 
 const Links = styled.div`
