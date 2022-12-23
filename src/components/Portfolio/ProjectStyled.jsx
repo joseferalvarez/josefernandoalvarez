@@ -48,7 +48,7 @@ const Text = styled.div`
     p{
         color: var(--color-silver);
         font-size: 1rem;
-        font-family: var(--roboto);
+        font-family: var(--montserrat);
         margin: 0;
     }
 
