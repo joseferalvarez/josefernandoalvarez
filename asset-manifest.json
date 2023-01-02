@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/josefernandoalvarez/static/css/main.70a86890.css",
-    "main.js": "/josefernandoalvarez/static/js/main.0232af3b.js",
+    "main.js": "/josefernandoalvarez/static/js/main.352165a6.js",
     "static/js/787.cf30d4c5.chunk.js": "/josefernandoalvarez/static/js/787.cf30d4c5.chunk.js",
     "static/media/kompilanding.png": "/josefernandoalvarez/static/media/kompilanding.248e064ce1cdbb1c182e.png",
     "static/media/kompi.png": "/josefernandoalvarez/static/media/kompi.6603953f6d1ae33a3d6a.png",
@@ -17,11 +17,11 @@
     "static/media/logolight.svg": "/josefernandoalvarez/static/media/logolight.86379b41983557f85f908af9d3c0de61.svg",
     "static/media/code.svg": "/josefernandoalvarez/static/media/code.af8bf825f6202d891f235e5f1dc63a4b.svg",
     "main.70a86890.css.map": "/josefernandoalvarez/static/css/main.70a86890.css.map",
-    "main.0232af3b.js.map": "/josefernandoalvarez/static/js/main.0232af3b.js.map",
+    "main.352165a6.js.map": "/josefernandoalvarez/static/js/main.352165a6.js.map",
     "787.cf30d4c5.chunk.js.map": "/josefernandoalvarez/static/js/787.cf30d4c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70a86890.css",
-    "static/js/main.0232af3b.js"
+    "static/js/main.352165a6.js"
   ]
 }
